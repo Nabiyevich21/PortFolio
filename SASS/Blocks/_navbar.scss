@@ -57,6 +57,7 @@
                     }
                 }
             }
+
             //? navbar list item after
             .navbar__list-item a::after {
                 content: "";
@@ -75,6 +76,17 @@
                 padding: 3px 9px;
                 border-radius: 5px;
                 font-size: 16px;
+            }
+            // ! dark mode
+            i {
+                border: 1px solid #efefee;
+                padding: 5px;
+                border-radius: 5px;
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
         }
         .is-active {
