@@ -87,6 +87,7 @@ ul {
 .navbar .navbar__wrapper .navbar__title {
   display: block;
   z-index: 9999;
+  color: green;
 }
 .navbar .navbar__wrapper .navbar__list {
   position: relative;

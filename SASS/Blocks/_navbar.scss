@@ -11,9 +11,7 @@
         .navbar__title {
             display: block;
             z-index: 9999;
-
-            @include media(0, 1230px) {
-            }
+            color: green;
         }
 
         //! navbar list
