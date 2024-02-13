@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FrontEnd Platform</title>
+    <!--* swiper JS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
     <!--* CDN  -->
     <link
       rel="stylesheet"
@@ -12,7 +19,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!--* Navbar Section started  -->
@@ -66,8 +72,44 @@
       </div>
     </header>
     <!--* Navbar Section ended  -->
-    <main></main>
+    <main>
+      <!--* hero section started  -->
+      <section class="hero">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./img/hero__bg.jpg"
+                alt=""
+                height="500px"
+                width="100%"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/pexels-hachim-214440.jpg"
+                height="500px"
+                width="100%"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./img/pexels-jess-loiterton-7502482.jpg"
+                alt=""
+                height="500px"
+                width="100%"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--* hero section ended  -->
+    </main>
     <footer></footer>
+    <!--* swiper js script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--* CDN JS  -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
