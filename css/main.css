@@ -125,6 +125,7 @@ ul {
 .navbar .navbar__wrapper .navbar__list .navbar__list-item a {
   font-size: 20px;
   font-weight: 500;
+  color: #000;
 }
 @media screen and (min-width: 0) and (max-width: 1230px) {
   .navbar .navbar__wrapper .navbar__list .navbar__list-item a {

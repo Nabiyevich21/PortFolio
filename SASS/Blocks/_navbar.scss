@@ -51,6 +51,7 @@
                 a {
                     font-size: 20px;
                     font-weight: 500;
+                    color: #000;
 
                     @include media(0, 1230px) {
                         color: rgb(255, 255, 255);
